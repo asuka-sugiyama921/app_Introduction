@@ -118,7 +118,8 @@ footer{
   text-align: center;
 }
 
-@media(min-width: 800px){
+@media(min-width: 900px){
+
  header .container{
    display: flex;
    width: 800px;
@@ -153,16 +154,17 @@ footer{
  }
  .features .info{
   width: calc(50% - 32px);
-}
+ }
 
-.members ul{
+ .members ul{
   width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
+ }
 
-.members li{
+ .members li{
   width: 250px;
-}
+ }
+
 }
